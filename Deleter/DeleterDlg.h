@@ -37,4 +37,8 @@ public:
 	CButton v_btnDelete;
 	afx_msg void OnBnClickedButtonDelete();
 	CListCtrl v_lstView;
+	afx_msg void OnUpdateMenuViewA(CCmdUI *pCmdUI);
+	afx_msg void OnUpdateMenuViewB(CCmdUI *pCmdUI);
+	CEdit editCount;
+	afx_msg void OnDevAbout();
 };
